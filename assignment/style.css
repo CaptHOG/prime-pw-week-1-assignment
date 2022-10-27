@@ -6,20 +6,45 @@
 /* Make the header and footer a different color from the background */
 .main-header {
     background-color: brown;
+    border-bottom-style: double;
 }
 
 .main-footer {
     background-color: brown;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-style: double;
 }
 /* Align the h1 containing your name in the center of the header*/
 .main-header h1 {
     margin: 0;
     padding: 2.5%;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 /* Make your p tag a different color and italic */
+.footer-quote {
+    padding: 2%;
+    color: gold;
+    font-style: italic;
+    font-size: 20px;
+}
 
 /* Put a border around your image */
+.main-image {
+    margin-top: 2%;
+    margin-left: 2%;
+    border-style: solid;
+    border-color: black;
+}
 
 /* Change the font-family of your list */
+.main-text {
+    float: right;
+    font-family: fantasy;
+}
+
+ul {
+    list-style-type: none;
+}
