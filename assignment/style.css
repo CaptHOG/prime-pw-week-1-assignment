@@ -2,6 +2,9 @@
 .body {
     margin: 0;
     background-color: peru;
+    min-height: 100%;
+    display: grid;
+
 }
 /* Make the header and footer a different color from the background */
 .main-header {
@@ -11,11 +14,12 @@
 
 .main-footer {
     background-color: brown;
-    position: absolute;
+    left: 0;
     bottom: 0;
     width: 100%;
     border-top-style: double;
 }
+
 /* Align the h1 containing your name in the center of the header*/
 .main-header h1 {
     margin: 0;
@@ -41,8 +45,13 @@
 
 /* Change the font-family of your list */
 .main-text {
-    float: right;
     font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ff2 {
+    padding: 20px;
 }
 
 ul {
